@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectionSuperposition : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D autre){
+    void OnTriggerEnter(Collider autre){
         print(autre.gameObject.name);
     }
 
